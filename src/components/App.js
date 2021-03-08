@@ -21,6 +21,6 @@ const mapStateToProps = state => ({ value: state.count.value });
 //   increment: () => dispatch(increment()),
 //   decrement: () => dispatch(decrement())
 // });
-const mapDispatchToProps = ({ increment, decrement});
+const mapDispatchToProps = ({ increment, decrement });
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
